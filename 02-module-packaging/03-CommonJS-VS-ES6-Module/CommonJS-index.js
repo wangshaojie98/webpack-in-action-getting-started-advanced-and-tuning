@@ -1,0 +1,1 @@
+require('./CommonJS-foo.js');
