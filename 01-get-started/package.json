@@ -11,7 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve",
-    "build": "webpack --output-filename=bundle.js --mode=development"
+    "build": "webpack --output-filename=bundle.js --mode=development",
+    "build1": "webpack --output-filename bundle.js --mode development"
   },
   "keywords": [],
   "author": "",

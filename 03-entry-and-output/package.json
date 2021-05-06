@@ -7,14 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build1": "webpack --config ./context/webpack.config.js",
     "build2": "webpack --config ./entry-string/webpack.config.js",
-    "build3": "webpack --config ./entry-array/webpack.config.js"
+    "build3": "webpack --config ./entry-array/webpack.config.js",
+    "build4": "webpack --config ./entry-object/webpack.config.js",
+    "build5": "webpack --config ./entry-function/webpack.config.js",
+    "build6": "webpack --config ./output/webpack.config.js",
+    "dev": "webpack serve --config=./output/webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.1",
     "webpack": "^5.36.2",
-    "webpack-cli": "^4.6.0"
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "lodash": "^4.17.21"
