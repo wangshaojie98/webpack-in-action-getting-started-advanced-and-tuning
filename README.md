@@ -1,6 +1,6 @@
 # webpack-in-action-getting-started-advanced-and-tuning
 Webpack实战：入门、进阶与调优
-
+项目学习源码：https://github.com/yuhaoju/webpack-config-handbook
 ### 001：dependencies与devDependencies只是运行依赖和开发依赖区别吗？
 
 https://www.zhihu.com/question/310545060
