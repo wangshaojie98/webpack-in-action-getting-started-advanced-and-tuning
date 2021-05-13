@@ -1,0 +1,21 @@
+$primary-color: #09c;
+
+body {
+  background: red;
+
+  h1 {
+    color: $primary-color
+  }
+}
+
+
+a {
+  transform: scale(0.5);
+}
+
+.autoplacement-example {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+}
